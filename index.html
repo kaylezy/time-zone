@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="clock-feature">
+      <label for="timezone">Select Timezone:</label>
+      <select id="timezone">
+        <option value="local">Local Time</option>
+        <option value="Africa/Lagos">Nigeria</option>
+        <option value="Africa/Accra">Ghana</option>
+        <option value="Africa/Johannesburg">South Africa</option>
+        <option value="Africa/Nairobi">Kenya</option>
+        <option value="Canada/Eastern">Canada</option>
+        <option value="America/Toronto">Toronto (EST/EDT)</option>
+        <option value="America/New_York">New York</option>
+        <option value="Europe/London">United Kingdom(GMT/BST)</option>
+        <option value="Europe/Paris">France</option>
+        <option value="Europe/Berlin">Germany</option>
+        <option value="Asia/Dubai">Dubai</option>
+      </select>
+      <h2>Hello World!, It's currently</h2>
+      <p class="text"><span id="currentTime"></span></p>
+    </div>
+
+    <div id="clock">
+      <div id="hrDots" class="red"></div>
+      <div id="minDots" class="yellow"></div>
+      <div id="secDots" class="green"></div>
+    </div>
+
+    <div class="container"></div>
+    <script type="module" src="/main.js"></script>
+    <script type="module" src="/time-zone.js"></script>
+  </body>
+</html>
