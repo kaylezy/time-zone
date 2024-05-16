@@ -11,3 +11,5 @@ This is a simple web application that allows users to view the current time in d
 - HTML
 - CSS
 - Javascript Module
+## Below is the link to the hosted project
+- https://time-zone-conversion.netlify.app/
